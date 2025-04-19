@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Screening Test – Summer Internship under Dr. Abhijit Chandra - Analytics Dashboard Assessment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚗 EV Dashboard by Mahurima Paul
 
-## Available Scripts
+This is a fully interactive dashboard that analyzes and visualizes the Electric Vehicle (EV) Population Dataset. It enables users to dynamically explore trends in EV makes, models, types, range distribution, and city-wise registrations. The dashboard also supports dark mode, filtering based on dataset columns, dropdown for displaying graphs on click, and PDF export.
 
-In the project directory, you can run:
+🔗 **Live Demo:** [https://analytics-dashboard-assessment-lyart.vercel.app/](https://analytics-dashboard-assessment-lyart.vercel.app/)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 💻 Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React.js** – Component-based frontend
+- **Tailwind CSS** – Utility-first styling and dark mode support
+- **Recharts** – Data visualization (bar, pie, line charts)
+- **html2canvas + jsPDF** – Export full dashboard as PDF
+- **Vercel** – Hosting and deployment
+- **Papaparse** – CSV parsing in-browser
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📊 Dataset
 
-### `npm run build`
+The Electric Vehicle Population dataset is available in the [`data-to-visualize/`](./data-to-visualize/Electric_Vehicle_Population_Data.csv) folder of this repository.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+More about the dataset: [Kaggle - EV Population](https://www.kaggle.com/datasets/willianoliveiragibin/electric-vehicle-population)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> **Note:** The dataset was reduced for performance in the frontend.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ✅ Tasks Completed
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [x] Created a dynamic frontend dashboard for exploring the dataset
+- [x] Displayed key metrics and insights with visualizations
+- [x] Added filters for Make, Model, and County
+- [x] Included collapsible charts and interactive toggles
+- [x] Enabled light/dark mode
+- [x] Added download PDF functionality
+- [x] Deployed live on Vercel
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📈 Evaluation Criteria
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Analytical Depth** – Explored multiple dimensions of the dataset (Make, Model, Type, City, Year)
+- **Dashboard Design** – Clean layout, collapsible sections, responsive and animated
+- **Insightfulness** – Showcases real patterns and trends in EV adoption
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📬 Submission Instructions
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- ✅ Forked this repository to my GitHub account
+- ✅ Built and deployed the dashboard
+- ✅ Updated this README with the live URL
+- ✅ Kept repository private
+- ✅ Added `kandaramit5@gmail.com` as a collaborator
+- ✅ Filled out the submission Google Form
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to explore the dashboard, test the filters, and try exporting it as a PDF!
